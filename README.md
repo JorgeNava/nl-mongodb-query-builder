@@ -66,6 +66,11 @@ Here are some query examples (they can be done in English or Portuguese, perhaps
 - Which war games are the most played?
 ```
 
+
+docker-compose exec app node query.js "How many games are registered?"
+docker-compose exec app node query.js "What are the most popular festive games in the collections?"
+docker-compose exec app node query.js "What are the 5 most common games (title and quantity) in the collections?"
+
 ## Function calls
 
 It is also possible to utilize the OpenAI API's function calls feature for your queries. Execute the following command:
