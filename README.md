@@ -96,3 +96,16 @@ This project is a Proof of Concept of the use of the OpenAI API for generating q
 ## Trivia
 
 This documentation was also created with AI assistance 🤖 😉.
+
+
+## TO-DO
+### Read
+[] Create collections schemas
+[] Populate collections with test data
+[]
+### Write
+[] Generate a prompt model for writing data into existing collections
+[] Generate a prompt model for writing data into non-existing collections
+[] Generate a prompt model for modifying data from a document
+### Delete
+[] Generate a prompt model for documents delition
