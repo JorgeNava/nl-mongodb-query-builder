@@ -1,8 +1,8 @@
 {
-  "name": "query",
-  "version": "1.0.0",
+  "name": "nl2mongo",
+  "version": "1.0.2",
   "description": "",
-  "main": "query-chat.js",
+  "main": "index.js",
   "directories": {
     "lib": "lib"
   },
