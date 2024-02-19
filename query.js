@@ -5,6 +5,10 @@ const question = process.argv[2];
 const option = process.argv[3] ?? undefined;
 
 if (option !== '--cached') {
+
+  // TODO: HANDLE DIFFERENT DB OPERATIONS (NEXT WILL BE WRITE OPERATIONS)
+  //? Maybe we can ask first chatgpt if it thinks its a write, read, delete, modify request and then handle them in source code
+
   QueryBuilder.handle(question).then(response => {
 
     if (response.startsWith("<!--") && response.endsWith("--!>")) {
