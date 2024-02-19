@@ -11,8 +11,6 @@ if (option !== '--cached') {
       response = response.substring(4, response.length - 4);
     }
 
-    console.log('[NAVA] response', response);
-
     DatabaseQuery.handle(JSON.parse(response))
   })
 } else {
