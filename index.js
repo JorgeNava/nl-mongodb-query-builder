@@ -8,7 +8,6 @@ class NL2Mongo {
   }
 
   setSecretKeys(keys) {
-    console.log('[NAVA] keys', keys);
     this.secretKeys = keys;
   }
 
