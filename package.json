@@ -1,13 +1,14 @@
 {
   "name": "nl2mongo",
-  "version": "1.0.2",
+  "version": "1.0.9",
   "description": "",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm publish --access public"
   },
   "author": "",
   "license": "ISC",
